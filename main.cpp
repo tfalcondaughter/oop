@@ -8,5 +8,14 @@ int main(){
     cin >> n;
     maxN = n;
 
+    while (n != 0)
+    {
+        if (maxN < n) maxN = n;
+        cN++;
+        sN += n;
+//        cout << cN << ' '<< sN<< endl;
+        cin >> n;
+    }
+
     return 0;
 }
