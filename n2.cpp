@@ -38,6 +38,10 @@ int main() {
     fout << endl;
     sort(mas);
 
+    for (int i = 0; i < n; i++) {
+        fout << mas[i] << " ";
+    }
+
 
     return 0;
 }
