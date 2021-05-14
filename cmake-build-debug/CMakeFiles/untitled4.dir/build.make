@@ -80,17 +80,38 @@ CMakeFiles\untitled4.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled4.dir\main.cpp.s /c C:\Users\Tanya\CLionProjects\untitled4\main.cpp
 <<
 
+CMakeFiles\untitled4.dir\n2.cpp.obj: CMakeFiles\untitled4.dir\flags.make
+CMakeFiles\untitled4.dir\n2.cpp.obj: ..\n2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tanya\CLionProjects\untitled4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled4.dir/n2.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled4.dir\n2.cpp.obj /FdCMakeFiles\untitled4.dir\ /FS -c C:\Users\Tanya\CLionProjects\untitled4\n2.cpp
+<<
+
+CMakeFiles\untitled4.dir\n2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/n2.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled4.dir\n2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Tanya\CLionProjects\untitled4\n2.cpp
+<<
+
+CMakeFiles\untitled4.dir\n2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/n2.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled4.dir\n2.cpp.s /c C:\Users\Tanya\CLionProjects\untitled4\n2.cpp
+<<
+
 # Object files for target untitled4
 untitled4_OBJECTS = \
-"CMakeFiles\untitled4.dir\main.cpp.obj"
+"CMakeFiles\untitled4.dir\main.cpp.obj" \
+"CMakeFiles\untitled4.dir\n2.cpp.obj"
 
 # External object files for target untitled4
 untitled4_EXTERNAL_OBJECTS =
 
 untitled4.exe: CMakeFiles\untitled4.dir\main.cpp.obj
+untitled4.exe: CMakeFiles\untitled4.dir\n2.cpp.obj
 untitled4.exe: CMakeFiles\untitled4.dir\build.make
 untitled4.exe: CMakeFiles\untitled4.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tanya\CLionProjects\untitled4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tanya\CLionProjects\untitled4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled4.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\untitled4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\untitled4.dir\objects1.rsp @<<
  /out:untitled4.exe /implib:untitled4.lib /pdb:C:\Users\Tanya\CLionProjects\untitled4\cmake-build-debug\untitled4.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

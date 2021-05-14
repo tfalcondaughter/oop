@@ -154,6 +154,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled4.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+n2.obj: n2.cpp.obj
+
+.PHONY : n2.obj
+
+# target to build an object file
+n2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled4.dir\n2.cpp.obj
+.PHONY : n2.cpp.obj
+
+n2.i: n2.cpp.i
+
+.PHONY : n2.i
+
+# target to preprocess a source file
+n2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled4.dir\n2.cpp.i
+.PHONY : n2.cpp.i
+
+n2.s: n2.cpp.s
+
+.PHONY : n2.s
+
+# target to generate assembly for a file
+n2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled4.dir\n2.cpp.s
+.PHONY : n2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -166,6 +193,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... n2.obj
+	@echo ... n2.i
+	@echo ... n2.s
 .PHONY : help
 
 
