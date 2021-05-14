@@ -17,5 +17,9 @@ int main(){
         cin >> n;
     }
 
+    cout << sN << endl;
+    cout << maxN << endl;
+    cout << float(sN) / cN;
+
     return 0;
 }
